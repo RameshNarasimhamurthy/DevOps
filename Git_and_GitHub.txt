@@ -1,0 +1,115 @@
+Git and GitHub:-
+----------------------------
+1)It is a latest and widly used distributed version control system.
+example:- any software development we have certain version.1.0 to 5.5.
+2)The different versions of the software are stored in the git.It is important because in every version the older s/w will be only modified.They will not start from the scrach.
+3)Git helps to manage the project with high efficiency.
+4)The version control system allows us to moniter and work together with our team members at the same workspace.
+5)The git provides the main branch and sub branches.
+Here the main branch indicates the final project.The sub branches indicates the team members.Daily they will upadate there subbranches and the team/module lead will merge these code to the main branch after testing.
+6)we will conduct some operation in windows and some operation in Linux.
+7) It is a open-source distributed version control system.It is designed to handle minor to major projects with high speed and efficiency.
+8)Git is secure,scalable,open source,speed and distributed application.
+9)It provides branching and merging.Branching is used for indivisual developer and merging is done to the main stream.
+example :- Main project is the bank.
+		1)one member devloping login,registration pages
+		2)second member developing developing loan processing page.
+		3)third member developing applying for credit/debit card 
+They will all merge to the main bank project.
+10)every time we add ,modify or delete any data from the git ,we have to commit it.
+11)It saves time,we can do offline works,undo mistakes and track changes. 
+
+-----------------------------------------------------------------------
+Git is a local repository 
+github is a global repository
+
+To copy the uploaded files from github to local folder
+
+github link :-https://github.com/sandipmohapatra/DevOps
+
+commands :-
+-----------------------
+1)git remote add origin "LINK"
+
+2)get pull origin master/main/FOLDERNAME
+
+3)git status :- see how many file are created in the local repository and ready to commit.
+
+git --we have some files newly added,some files are modified.
+
+
+4)git add :- lets you to add files to your index.
+
+ git add devops.txt
+
+git add .
+
+5)git commit -m "This is a file from abc project"
+
+6)git log :- to check all the activities
+
+7)ls - to check the list of files.
+
+8)create a branch
+git branch firstbranch
+
+9)to switch to firstbranch
+ git checkout firstbranch
+
+10)vi First.txt
+Type
+:wq
+
+
+11)to see the content of the file
+cat First.tx
+
+12)ls :- to check the list of files.
+
+13)to merge firstBranch to master
+git checkout master
+git merge firstbranch
+
+master ---first.txt,second.txt,third.txt
+
+firstbranch --fouth.txt,fifth.txt,six.txt
+
+14)git commit -a -m "modified files"
+all the files will be add to index and commit.
+
+*merge is to add the difference.
+
+15)create ssh key
+ssh-keygen
+
+16)to continue press (y)
+
+17)goto setting at the top where you have profile and logout
+
+18)goto SSH and GPG keys
+
+19)ckick on new SSH key
+
+20)copy the key and paste on the github
+
+21)refresh the page
+
+22)git push origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
